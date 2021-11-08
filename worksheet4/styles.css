@@ -65,6 +65,9 @@ header {
 .section-three {
     background-color: lightcoral;
     height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
@@ -79,6 +82,12 @@ iframe {
 .section-four {
     background-color: darkslateblue;
     height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
 }
 
@@ -87,6 +96,7 @@ iframe {
 .section-five {
     background-color: goldenrod;
     height: 1400px;
+    
 
 }
 
@@ -148,4 +158,23 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.CorBlimey {
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+}
+
+.media-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
 }
